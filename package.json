@@ -1,0 +1,33 @@
+{
+  "name": "meangooglemaps",
+  "version": "1.0.0",
+  "description": "google maps tutorial using mean stack",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/martinmcd1/meanGoogleMaps.git"
+  },
+  "keywords": [
+    "google",
+    "maps",
+    "mean"
+  ],
+  "author": "Martin MacDonald",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/martinmcd1/meanGoogleMaps/issues"
+  },
+  "homepage": "https://github.com/martinmcd1/meanGoogleMaps#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "jsonwebtoken": "^7.3.0",
+    "method-override": "^2.3.7",
+    "mongoose": "^4.9.1",
+    "morgan": "^1.8.1"
+  }
+}
